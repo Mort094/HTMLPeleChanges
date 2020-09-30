@@ -1,0 +1,21 @@
+body {
+    background-color:#CCFFFF;
+}
+.flex{
+    display: flex;
+}
+.margin {
+    margin: 5px;
+}
+@media (min-width:992px) {
+    .flex-magle{
+order:0;
+    }
+    .flex-peter{
+     order:1;
+    }
+    .flex-email{
+    order:2;
+    text-align: center;
+    }
+}
